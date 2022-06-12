@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
 }
 h1 {
@@ -6,27 +6,41 @@ h1 {
 }
 .top-container {
   background-color: #e4f9f5;
-  height: 200px;
-  width: 200px;
-  border: solid;
-  border-width: 10px;
-  border-color: black;
 }
 .middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
-  border: solid;
-  border-width: 20px;
-  border-color: black;
-  margin-left: 218px;
 }
 .bottom-container {
   background-color: blue;
   height: 200px;
   width: 200px;
-  border: solid;
-  border-width: 10px;
-  border-color: black;
-  margin-left: 458px;
+}
+
+.pro {
+  text-decoration: underline;
+} */
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+  left: 300px;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
 }
