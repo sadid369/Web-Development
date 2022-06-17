@@ -4,15 +4,19 @@ body {
   font-family: "Merriweather", serif;
 }
 h1 {
+  color: #66bfbf;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
 }
 h2 {
+  color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
 }
 h3 {
+  color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
 .top-container {
@@ -24,7 +28,12 @@ h3 {
 }
 .bottom-container {
 }
-
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
 .pro {
   text-decoration: underline;
 }
@@ -42,4 +51,15 @@ h3 {
   border-radius: 80%;
   width: 250px;
   height: 250px;
+}
+
+.flutter-logo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.hacker-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
