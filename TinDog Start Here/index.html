@@ -21,50 +21,58 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css">
   </head>
 
   <body>
     <section id="title">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Tindog</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <!-- Title -->
+        <!-- Title -->
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
-        </div>
-        <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup" />
+        <div class="row">
+          <div class="col-lg-6">
+            
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i></ion-icon> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button">
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6" >
+            <img class="title-image" src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
         </div>
       </div>
     </section>
@@ -72,14 +80,23 @@
     <!-- Features -->
 
     <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fa-solid fa-circle-check fa-4x icon"></i>
       <h3>Easy to use.</h3>
       <p>So easy to use, even your dog could do it.</p>
-
+    </div>
+    <div class="feature-box col-lg-4">
+      <i class="fa-solid fa-bullseye fa-4x icon"></i>
       <h3>Elite Clientele</h3>
       <p>We have all the dogs, the greatest dogs.</p>
-
+    </div>
+    <div class="feature-box col-lg-4">
+      <i class="fa-solid fa-heart fa-4x icon"></i>
       <h3>Guaranteed to work.</h3>
       <p>Find the love of your dog's life or your money back.</p>
+    </div>
+    </div>
     </section>
 
     <!-- Testimonials -->
@@ -148,5 +165,13 @@
     <footer id="footer">
       <p>© Copyright 2018 TinDog</p>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
